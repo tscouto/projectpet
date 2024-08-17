@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="listagem.html">Home</a>
+      <a href="cadastro.html">Cadastro</a>
+    </div>
+    <div class="container">
+      <div class="header">
+        <h2>Posts dos Pets</h2>
+        <button class="new-post-button">Novo post</button>
+      </div>
+      <table id="lista-pets">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Descricao</th>
+            <th>Tipo</th>
+            <th>Data de Criacao</th>
+            <th>Acoes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Como cuidar de um cachorro</td>
+            <td>Thomas Hardy</td>
+            <td>Cuidados</td>
+            <td>2024-08-01</td>
+            <td><button class="delete-button">🗑️ Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="script/listagem.js"></script>
+</html>
