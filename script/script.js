@@ -1,8 +1,8 @@
 function adicionarPet(event) {
   event.preventDefault();
   const nome = document.getElementById('nome').value;
-  const descricao = document.getElementById('nome').value;
-  const foto = document.getElementById('nome').value;
+  const descricao = document.getElementById('descricao').value;
+  const foto = document.getElementById('foto').value;
   const tipo = document.getElementById('tipo').value;
 
   if (nome === '') {
